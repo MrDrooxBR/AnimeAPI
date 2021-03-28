@@ -1,9 +1,7 @@
 # Usagi API Wrapper
 
-How use this Wrapper ? 
-
+How use ?<br>Example:
 ```kotlin
-import com.github.mrdroox.projects.usagiapi.UsagiAPIClient
-
-println(UsagiAPIClient().kiss())
+import com.github.shadowb64.wrappers.usagi.UsagiAPIClient
+fun main() = println(UsagiAPIClient().kiss())
 ```

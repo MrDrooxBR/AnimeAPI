@@ -3,8 +3,10 @@ plugins {
     id 'java-library'
 }
 
-group 'com.github.mrdroox'
-version '1.1-SNAPSHOT'
+apply plugin: 'maven'
+
+group 'com.github.ShadowB64'
+version '2.0.0'
 
 repositories {
     jcenter()
@@ -13,14 +15,7 @@ repositories {
 
 dependencies {
     implementation platform('org.jetbrains.kotlin:kotlin-bom')
-
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
-
     implementation 'com.google.guava:guava:29.0-jre'
-
-    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
-
-    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
-
-    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.1.0"
+    implementation 'khttp:khttp:1.0.0'
 }
