@@ -3,7 +3,7 @@
 To use, You need add jitpack repository(Sorry, i don't have a Maven Repository) 
 <br>
 
-###Gradle
+### Gradle
 
 <br>
 
@@ -17,7 +17,7 @@ repositories {
 
 <br>
 
-###Maven
+### Maven
 <br>
 
 ```xml
@@ -32,7 +32,7 @@ repositories {
 And add the dependecy....<br>
 <br>
 
-###Gradle 
+### Gradle 
 <br>
 
 ```gradle
@@ -42,7 +42,7 @@ dependencies {
 ```
 
 <br>
-###Maven
+### Maven
 
 ```xml
  <dependency>
