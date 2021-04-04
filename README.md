@@ -6,25 +6,27 @@ To use, You need add jitpack repository(Sorry, i don't have a Maven Repository)
 ###Gradle
 
 <br>
+
 ```gradle
 repositories {
-			maven { 
-          url 'https://jitpack.io' 
-      }
+     maven { 
+        url 'https://jitpack.io' 
+     }
 }
 ```
+
 <br>
 
 ###Maven
 <br>
 
 ```xml
-  <repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+<repositories>
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+</repositories>
 ```
 
 And add the dependecy....<br>
@@ -35,7 +37,7 @@ And add the dependecy....<br>
 
 ```gradle
 dependencies {
-	   implementation 'com.github.ShadowB64:UsagiAPISimple:7724995560'
+    implementation 'com.github.ShadowB64:UsagiAPISimple:7724995560'
 }
 ```
 
@@ -43,11 +45,11 @@ dependencies {
 ###Maven
 
 ```xml
-  <dependency>
-	    <groupId>com.github.ShadowB64</groupId>
-	    <artifactId>UsagiAPISimple</artifactId>
-	    <version>7724995560</version>
-	</dependency>
+ <dependency>
+	 <groupId>com.github.ShadowB64</groupId>
+	 <artifactId>UsagiAPISimple</artifactId>
+	 <version>7724995560</version>
+</dependency>
 ```
 
 How to use this package ? <br>
