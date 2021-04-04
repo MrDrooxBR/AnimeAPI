@@ -1,39 +1,8 @@
-# Usagi API Wrapper
+If you want to use this wrapper, first of all, you'll need JitPack, you can see how to install JitPack [here](https://jitpack.io)
 
-To use, You need add jitpack repository(Sorry, i don't have a Maven Repository) 
-<br>
+Then, add UsagiAPISimple as a dependency
 
-### Gradle
-
-<br>
-
-```gradle
-repositories {
-     maven { 
-        url 'https://jitpack.io' 
-     }
-}
-```
-
-<br>
-
-### Maven
-
-<br>
-
-```xml
-<repositories>
-	<repository>
-		<id>jitpack.io</id>
-		<url>https://jitpack.io</url>
-	</repository>
-</repositories>
-```
-
-And add the dependecy....<br>
-<br>
-
-### Gradle 
+### Gradle:
 <br>
 
 ```gradle
@@ -42,10 +11,7 @@ dependencies {
 }
 ```
 
-<br>
-
 ### Maven
-
 <br>
 
 ```xml
@@ -56,10 +22,23 @@ dependencies {
 </dependency>
 ```
 
-How to use this package ? <br>
-
+## How can I use this wrapper?
+### Here is a simple example on how to get a kiss gif:
+<br>
 ```kotlin
 fun main() { 
     println(UsagiAPIClient().kiss())
 }
+```
+
+## What are the endpoints that I can use?
+```
+.dance()
+.feed()
+.hug()
+.kiss()
+.pat()
+.poke()
+.slap()
+.tickle()
 ```
