@@ -25,6 +25,7 @@ dependencies {
 ## How can I use this wrapper?
 ### Here is a simple example on how to get a kiss gif:
 <br>
+
 ```kotlin
 fun main() { 
     println(UsagiAPIClient().kiss())
