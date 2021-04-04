@@ -47,6 +47,7 @@ dependencies {
 ### Maven
 
 <br>
+
 ```xml
  <dependency>
 	 <groupId>com.github.ShadowB64</groupId>
