@@ -1,13 +1,13 @@
 If you want to use this wrapper, first of all, you'll need JitPack, you can see how to install JitPack [here](https://jitpack.io)
 
-Then, add UsagiAPISimple as a dependency
+Then, add UsagiAPI as a dependency
 
 ### Gradle:
 <br>
 
 ```gradle
 dependencies {
-    implementation 'com.github.ShadowB64:UsagiAPISimple:7724995560'
+    implementation("com.github.ShadowB64:UsagiAPI:b1440b3858")
 }
 ```
 
@@ -17,8 +17,8 @@ dependencies {
 ```xml
  <dependency>
 	 <groupId>com.github.ShadowB64</groupId>
-	 <artifactId>UsagiAPISimple</artifactId>
-	 <version>7724995560</version>
+	 <artifactId>UsagiAPI</artifactId>
+	 <version>b1440b3858</version>
 </dependency>
 ```
 
@@ -28,7 +28,7 @@ dependencies {
 
 ```kotlin
 fun main() { 
-    println(UsagiAPIClient().kiss())
+    println(UsagiAPI.kiss())
 }
 ```
 
