@@ -6,10 +6,11 @@ plugins {
 apply plugin: 'maven'
 
 group 'com.github.ShadowB64'
-version '2.0.0'
 
 repositories {
-    jcenter()
+    maven {
+        url 'https://jitpack.io'
+    }
     mavenCentral()
 }
 
@@ -17,5 +18,5 @@ dependencies {
     implementation platform('org.jetbrains.kotlin:kotlin-bom')
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
     implementation 'com.google.guava:guava:29.0-jre'
-    implementation 'khttp:khttp:1.0.0'
+    implementation 'com.github.ascclemens:khttp:0.1.0'
 }
