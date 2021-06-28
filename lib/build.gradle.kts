@@ -2,7 +2,10 @@ plugins {
     kotlin("jvm") version "1.5.20"
     kotlin("plugin.serialization") version "1.5.20"
     `java-library`
+    `maven-publish`
 }
+
+group = "com.github.ShadowB64"
 
 repositories {
     mavenCentral()
