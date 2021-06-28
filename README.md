@@ -1,4 +1,4 @@
-If you want to use this wrapper, first of all, you'll need JitPack, you can see how to install JitPack [here](https://jitpack.io)
+If you want to use this wrapper, first, you'll need JitPack, you can see how to install JitPack [here](https://jitpack.io)
 
 Then, add UsagiAPI as a dependency
 
@@ -34,6 +34,8 @@ fun main() {
 
 ## What are the endpoints that I can use?
 ```
+.bite()
+.bowdown()
 .dance()
 .feed()
 .hug()
@@ -42,4 +44,5 @@ fun main() {
 .poke()
 .slap()
 .tickle()
+.wasted()
 ```
